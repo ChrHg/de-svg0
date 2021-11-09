@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="da-DK">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Assignment DE.SVG.0</title>
+		<style>
+			body {
+				font: 400 16px/1.6 "Arial", sans-serif;
+			}
+			
+			svg {
+				background: black
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Assignment DE.SVG.0</h1>
+		<svg viewbox="0 0 400 200" width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+			<ellipse cx="200" cy="100" rx="190" ry="90"
+			stroke="blue" stroke-width="3"/>
+			<circle cx="200" cy="100" r="10"
+			fill="yellow"/>
+		</svg>
+		<br>
+		<h1>Assignment DE.SVG.1</h1>
+		<p>Viewbox er en svg attribut, der definerer position og dimension ift. viewport. Den fastlægger et billedes aspect ratio.<br>
+			Viewbox består af en række af fire tal: min-x, min-y, width og height.<br>
+			min-x og min-y er koordinaterne for øverste venstre hjørne af viewboxen og width og height er bredden og højden af viewboxen.
+		</p>
+		<p>Viewport er det synlige område af et svg billede, hvis canvas ellers har uendelige dimensioner. Størrelsen af viewport sættes med width og height attributer på svg elementet.</p>
+		<p>Til skalering af svg kan man bruge preserveAspectRatio, som kun har en effekt, hvis den bruges sammen med viewbox. PreserveAspectRatio bestemmer, hvordan et billede skal skalere, hvis aspect ratio for viewboxen ikke matcher aspect ratio for viewporten. Default er, at billedet skalerer, så det lige passer til højden og bredden, og det centreres ift. ekstra rum.</p>
+		<h2>Kilder</h2>
+		<p><a href="https://css-tricks.com/scale-svg/">https://css-tricks.com/scale-svg/</a><br>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox">https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox</a><br>
+			<a href="https://www.sarasoueidan.com/blog/svg-coordinate-systems/">https://www.sarasoueidan.com/blog/svg-coordinate-systems/</a>
+		</p>
+	</body>
+</html>
